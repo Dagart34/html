@@ -7,3 +7,7 @@ clickButton.addEventListener('click', () => {
     score++;
     scoreDisplay.textContent = score;
 });
+
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
