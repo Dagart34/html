@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     background-color: #111111;
     font-family: Arial, sans-serif;
 }
@@ -32,7 +32,7 @@ body {
     
     position: relative;
     top: 50%; left: 0%;
-    transform: translate(0%, -120%);
+    transform: translate(0%, 165%);
 }
 
 .name {
@@ -42,7 +42,7 @@ body {
     
     position: relative;
     top: 50%; left: 50%;
-    transform: translate(-50%, -500%);
+    transform: translate(-50%, 650%);
 }
 
 button {
@@ -59,7 +59,7 @@ button {
     
     position: relative;
     top: 50%; left: 50%;
-    transform: translate(-50%, -425%);
+    transform: translate(-50%, 275%);
 }
 
 button:active {
@@ -73,5 +73,5 @@ button:active {
     
     position: relative;
     top: 50%; left: 50%;
-    transform: translate(-50%, -225%);
+    transform: translate(-50%, 650%);
 }
