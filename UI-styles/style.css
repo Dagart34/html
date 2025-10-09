@@ -55,7 +55,6 @@ body {
 .name {
     color: white;
     font-size: 25px;
-    font-weight: 450;
 }
 
 .continueBtn {
@@ -81,11 +80,9 @@ button:active {
 .confirmation-text {
     color: #BDBDBD;
     font-size: 16px;
-    font-weight: 300;
 }
 
 .by {
     color: #BDBDBD;
     font-size: 15px;
-    top: 25%;
 }
