@@ -45,19 +45,19 @@ body {
 .main .name {
     color: white;
     font-size: 25px;
+    font-weight: 350;
 
     top: 80px;
 }
 
 .main .continueBtn {
     background-color: #FFFFFF;
-    font-weight: bold;
+    font-weight: 550;
     font-size: 17px;
-    font-family: Arial, sans-serif;
 
     line-height: 22px;
     height: 45px;
-    width: 260px;
+    width: 270px;
     
     color: #000000;
     border: none;
@@ -67,7 +67,7 @@ body {
     top: 100px;
 }
 
-.continueBtn:active {
+.continueBtn:hover {
     background-color: #999999;
     color: #383838;
 }
@@ -75,6 +75,7 @@ body {
 .main .confirmation-text {
     color: #BDBDBD;
     font-size: 15px;
+    font-weight: 350;
 
     position: relative;
     top: 110px;
@@ -83,6 +84,7 @@ body {
 .main .by {
     color: #BDBDBD;
     font-size: 13px;
+    font-weight: 350;
 
     position: relative;
     top: 170px;
