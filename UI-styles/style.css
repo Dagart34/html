@@ -1,43 +1,29 @@
-body {
-  -webkit-user-select: none;
-  
-  -moz-user-select: none;
-  
-  -ms-user-select: none;
-  
-  user-select: none;
-  
-  -webkit-user-drag: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-html {
-    width: 100%;
-    height: 100%;
-}
-
-body {
-    width: 100%;
-    height: 100%;
+*{
     margin: 0;
+    padding: 0%;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
 
     background-color: #080808;
-    font-family: Arial, sans-serif;
 }
 
-.container {
+.main {
     text-align: center;
 
-    position: relative;
-    top: 25%;
-}
-
-.startWindow {
     width: 330px;
     height: 450px;
     background-color: #0D0D0D;
     border: 1px solid #262626;
     border-radius: 11px;
-    z-index: -1;
 
     position: absolute;
     top: 50%;
@@ -45,19 +31,25 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.confirmation-image {
+.main .confirmation-image {
     pointer-events: none;
     
     width: 125px;
     height: 125px;
+
+    position: relative;
+    top: 12%;
 }
 
-.name {
+.main .name {
     color: white;
     font-size: 25px;
+
+    position: relative;
+    top: 16%;
 }
 
-.continueBtn {
+.main .continueBtn {
     background-color: #FFFFFF;
     font-weight: bold;
     font-size: 17px;
@@ -70,19 +62,28 @@ body {
     color: #000000;
     border: none;
     border-radius: 11px;
+
+    position: relative;
+    top: 20%;
 }
 
-button:active {
+.continueBtn:active {
     background-color: #999999;
     color: #383838;
 }
 
-.confirmation-text {
+.main .confirmation-text {
     color: #BDBDBD;
     font-size: 16px;
+
+    position: relative;
+    top: 23%;
 }
 
-.by {
+.main .by {
     color: #BDBDBD;
     font-size: 15px;
+
+    position: relative;
+    top: 30%;
 }
