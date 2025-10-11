@@ -50,7 +50,7 @@ body {
     top: 80px;
 }
 
-.main .continueBtn {
+.continueBtn {
     background-color: #FFFFFF;
     font-weight: 550;
     font-size: 17px;
@@ -67,7 +67,7 @@ body {
     top: 100px;
 }
 
-.main .continueBtn:active {
+.continueBtn:active {
     background-color: #999999;
     color: #383838;
 }
