@@ -45,7 +45,7 @@ body {
 .main .name {
     color: white;
     font-size: 25px;
-    font-weight: 350;
+    font-weight: 450;
 
     top: 80px;
 }
@@ -67,7 +67,7 @@ body {
     top: 100px;
 }
 
-.continueBtn:hover {
+.continueBtn:active {
     background-color: #999999;
     color: #383838;
 }
