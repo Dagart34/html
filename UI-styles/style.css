@@ -67,7 +67,7 @@ body {
     top: 100px;
 }
 
-.continueBtn:active {
+.main .continueBtn:active {
     background-color: #999999;
     color: #383838;
 }
