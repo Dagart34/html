@@ -39,15 +39,14 @@ body {
     height: 125px;
 
     position: relative;
-    top: 12%;
+    top: 60px;
 }
 
 .main .name {
     color: white;
     font-size: 25px;
 
-    position: relative;
-    top: 16%;
+    top: 80px;
 }
 
 .main .continueBtn {
@@ -65,7 +64,7 @@ body {
     border-radius: 11px;
 
     position: relative;
-    top: 20%;
+    top: 100px;
 }
 
 .continueBtn:active {
@@ -75,16 +74,16 @@ body {
 
 .main .confirmation-text {
     color: #BDBDBD;
-    font-size: 16px;
+    font-size: 15px;
 
     position: relative;
-    top: 23%;
+    top: 110px;
 }
 
 .main .by {
     color: #BDBDBD;
-    font-size: 15px;
+    font-size: 13px;
 
     position: relative;
-    top: 30%;
+    top: 170px;
 }
